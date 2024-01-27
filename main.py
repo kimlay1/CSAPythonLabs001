@@ -1,4 +1,4 @@
-# Application 1
+# App 1
 
 user_input = input("Enter a string: ")
 double = (char * 2 for char in user_input)
@@ -6,8 +6,7 @@ output = ''.join(double)
 
 print(f"{user_input} -> {output}")
 
-
-# Application 2
+# App 2
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 user_range = input("Enter a range of letters (e.g., a-z): ")
